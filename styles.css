@@ -1,0 +1,133 @@
+@font-face {
+   font-family: Norse;
+   src: url("Norse-Bold.otf");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 300;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.odinbackground {
+    background-image: url("will-cMQOVidEaik-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+   
+
+}
+
+.odin-head {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    height: 20%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.odin {
+    font-family: Norse;
+    font-size: 100px;
+    margin-top: 20px;
+    
+}
+
+div>img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 90%;
+}
+
+
+ .form {
+    background-color: whitesmoke;
+    
+ }
+
+ .paragraph {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 100%;
+    font-size: medium;
+    text-wrap: wrap;
+    font-weight: bold;
+    
+ }
+
+ .paragraph2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+   
+    
+ }
+
+ form div>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+ }
+
+ input {
+    max-width: 500px;
+    height: 20px;
+    padding: 5px;
+    border: solid #E5E7EB;
+    border-radius: 3px;
+ }
+
+ input[type="password"]:invalid {
+    border: solid red;
+ }
+
+ button[type="submit"] {
+    margin: 20px;
+    background-color: #596D48;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;   
+ }
+
+ input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+ }
+
+ a {
+    color: #596D48;
+ }
+
+ .login-link {
+    margin-left: 20px;
+ }
+
+ .credit {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 40%; 
+    color: white;
+
+ }
